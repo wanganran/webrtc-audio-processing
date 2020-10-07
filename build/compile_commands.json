@@ -1,0 +1,926 @@
+[
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/efb7b4f@@webrtc@sta -Iwebrtc -I../webrtc -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/efb7b4f@@webrtc@sta/common_types.cc.o' -MF 'webrtc/efb7b4f@@webrtc@sta/common_types.cc.o.d' -o 'webrtc/efb7b4f@@webrtc@sta/common_types.cc.o' -c ../webrtc/common_types.cc",
+    "file": "../webrtc/common_types.cc",
+    "output": "webrtc/efb7b4f@@webrtc@sta/common_types.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/base/f84b317@@libbase@sta -Iwebrtc/base -I../webrtc/base -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/base/f84b317@@libbase@sta/criticalsection.cc.o' -MF 'webrtc/base/f84b317@@libbase@sta/criticalsection.cc.o.d' -o 'webrtc/base/f84b317@@libbase@sta/criticalsection.cc.o' -c ../webrtc/base/criticalsection.cc",
+    "file": "../webrtc/base/criticalsection.cc",
+    "output": "webrtc/base/f84b317@@libbase@sta/criticalsection.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/base/f84b317@@libbase@sta -Iwebrtc/base -I../webrtc/base -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/base/f84b317@@libbase@sta/checks.cc.o' -MF 'webrtc/base/f84b317@@libbase@sta/checks.cc.o.d' -o 'webrtc/base/f84b317@@libbase@sta/checks.cc.o' -c ../webrtc/base/checks.cc",
+    "file": "../webrtc/base/checks.cc",
+    "output": "webrtc/base/f84b317@@libbase@sta/checks.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/base/f84b317@@libbase@sta -Iwebrtc/base -I../webrtc/base -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/base/f84b317@@libbase@sta/event.cc.o' -MF 'webrtc/base/f84b317@@libbase@sta/event.cc.o.d' -o 'webrtc/base/f84b317@@libbase@sta/event.cc.o' -c ../webrtc/base/event.cc",
+    "file": "../webrtc/base/event.cc",
+    "output": "webrtc/base/f84b317@@libbase@sta/event.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/base/f84b317@@libbase@sta -Iwebrtc/base -I../webrtc/base -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/base/f84b317@@libbase@sta/platform_thread.cc.o' -MF 'webrtc/base/f84b317@@libbase@sta/platform_thread.cc.o.d' -o 'webrtc/base/f84b317@@libbase@sta/platform_thread.cc.o' -c ../webrtc/base/platform_thread.cc",
+    "file": "../webrtc/base/platform_thread.cc",
+    "output": "webrtc/base/f84b317@@libbase@sta/platform_thread.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/base/f84b317@@libbase@sta -Iwebrtc/base -I../webrtc/base -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/base/f84b317@@libbase@sta/platform_file.cc.o' -MF 'webrtc/base/f84b317@@libbase@sta/platform_file.cc.o.d' -o 'webrtc/base/f84b317@@libbase@sta/platform_file.cc.o' -c ../webrtc/base/platform_file.cc",
+    "file": "../webrtc/base/platform_file.cc",
+    "output": "webrtc/base/f84b317@@libbase@sta/platform_file.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/base/f84b317@@libbase@sta -Iwebrtc/base -I../webrtc/base -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/base/f84b317@@libbase@sta/stringutils.cc.o' -MF 'webrtc/base/f84b317@@libbase@sta/stringutils.cc.o.d' -o 'webrtc/base/f84b317@@libbase@sta/stringutils.cc.o' -c ../webrtc/base/stringutils.cc",
+    "file": "../webrtc/base/stringutils.cc",
+    "output": "webrtc/base/f84b317@@libbase@sta/stringutils.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/base/f84b317@@libbase@sta -Iwebrtc/base -I../webrtc/base -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/base/f84b317@@libbase@sta/thread_checker_impl.cc.o' -MF 'webrtc/base/f84b317@@libbase@sta/thread_checker_impl.cc.o.d' -o 'webrtc/base/f84b317@@libbase@sta/thread_checker_impl.cc.o' -c ../webrtc/base/thread_checker_impl.cc",
+    "file": "../webrtc/base/thread_checker_impl.cc",
+    "output": "webrtc/base/f84b317@@libbase@sta/thread_checker_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_resampler.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_resampler.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_resampler.cc.o' -c ../webrtc/common_audio/resampler/push_resampler.cc",
+    "file": "../webrtc/common_audio/resampler/push_resampler.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_resampler.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_sinc_resampler.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_sinc_resampler.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_sinc_resampler.cc.o' -c ../webrtc/common_audio/resampler/push_sinc_resampler.cc",
+    "file": "../webrtc/common_audio/resampler/push_sinc_resampler.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/resampler_push_sinc_resampler.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_resampler.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_resampler.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_resampler.cc.o' -c ../webrtc/common_audio/resampler/resampler.cc",
+    "file": "../webrtc/common_audio/resampler/resampler.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/resampler_resampler.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinc_resampler.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinc_resampler.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinc_resampler.cc.o' -c ../webrtc/common_audio/resampler/sinc_resampler.cc",
+    "file": "../webrtc/common_audio/resampler/sinc_resampler.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinc_resampler.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinusoidal_linear_chirp_source.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinusoidal_linear_chirp_source.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinusoidal_linear_chirp_source.cc.o' -c ../webrtc/common_audio/resampler/sinusoidal_linear_chirp_source.cc",
+    "file": "../webrtc/common_audio/resampler/sinusoidal_linear_chirp_source.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/resampler_sinusoidal_linear_chirp_source.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_corr_to_refl_coef.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_corr_to_refl_coef.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_corr_to_refl_coef.c.o' -c ../webrtc/common_audio/signal_processing/auto_corr_to_refl_coef.c",
+    "file": "../webrtc/common_audio/signal_processing/auto_corr_to_refl_coef.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_corr_to_refl_coef.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_correlation.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_correlation.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_correlation.c.o' -c ../webrtc/common_audio/signal_processing/auto_correlation.c",
+    "file": "../webrtc/common_audio/signal_processing/auto_correlation.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_auto_correlation.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_fft.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_fft.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_fft.c.o' -c ../webrtc/common_audio/signal_processing/complex_fft.c",
+    "file": "../webrtc/common_audio/signal_processing/complex_fft.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_fft.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_copy_set_operations.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_copy_set_operations.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_copy_set_operations.c.o' -c ../webrtc/common_audio/signal_processing/copy_set_operations.c",
+    "file": "../webrtc/common_audio/signal_processing/copy_set_operations.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_copy_set_operations.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_cross_correlation.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_cross_correlation.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_cross_correlation.c.o' -c ../webrtc/common_audio/signal_processing/cross_correlation.c",
+    "file": "../webrtc/common_audio/signal_processing/cross_correlation.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_cross_correlation.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_division_operations.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_division_operations.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_division_operations.c.o' -c ../webrtc/common_audio/signal_processing/division_operations.c",
+    "file": "../webrtc/common_audio/signal_processing/division_operations.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_division_operations.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_dot_product_with_scale.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_dot_product_with_scale.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_dot_product_with_scale.c.o' -c ../webrtc/common_audio/signal_processing/dot_product_with_scale.c",
+    "file": "../webrtc/common_audio/signal_processing/dot_product_with_scale.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_dot_product_with_scale.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_downsample_fast.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_downsample_fast.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_downsample_fast.c.o' -c ../webrtc/common_audio/signal_processing/downsample_fast.c",
+    "file": "../webrtc/common_audio/signal_processing/downsample_fast.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_downsample_fast.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_energy.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_energy.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_energy.c.o' -c ../webrtc/common_audio/signal_processing/energy.c",
+    "file": "../webrtc/common_audio/signal_processing/energy.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_energy.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar.c.o' -c ../webrtc/common_audio/signal_processing/filter_ar.c",
+    "file": "../webrtc/common_audio/signal_processing/filter_ar.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ma_fast_q12.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ma_fast_q12.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ma_fast_q12.c.o' -c ../webrtc/common_audio/signal_processing/filter_ma_fast_q12.c",
+    "file": "../webrtc/common_audio/signal_processing/filter_ma_fast_q12.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ma_fast_q12.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_hanning_window.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_hanning_window.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_hanning_window.c.o' -c ../webrtc/common_audio/signal_processing/get_hanning_window.c",
+    "file": "../webrtc/common_audio/signal_processing/get_hanning_window.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_hanning_window.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_scaling_square.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_scaling_square.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_scaling_square.c.o' -c ../webrtc/common_audio/signal_processing/get_scaling_square.c",
+    "file": "../webrtc/common_audio/signal_processing/get_scaling_square.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_get_scaling_square.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_ilbc_specific_functions.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_ilbc_specific_functions.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_ilbc_specific_functions.c.o' -c ../webrtc/common_audio/signal_processing/ilbc_specific_functions.c",
+    "file": "../webrtc/common_audio/signal_processing/ilbc_specific_functions.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_ilbc_specific_functions.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_levinson_durbin.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_levinson_durbin.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_levinson_durbin.c.o' -c ../webrtc/common_audio/signal_processing/levinson_durbin.c",
+    "file": "../webrtc/common_audio/signal_processing/levinson_durbin.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_levinson_durbin.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_lpc_to_refl_coef.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_lpc_to_refl_coef.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_lpc_to_refl_coef.c.o' -c ../webrtc/common_audio/signal_processing/lpc_to_refl_coef.c",
+    "file": "../webrtc/common_audio/signal_processing/lpc_to_refl_coef.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_lpc_to_refl_coef.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_min_max_operations.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_min_max_operations.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_min_max_operations.c.o' -c ../webrtc/common_audio/signal_processing/min_max_operations.c",
+    "file": "../webrtc/common_audio/signal_processing/min_max_operations.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_min_max_operations.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_randomization_functions.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_randomization_functions.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_randomization_functions.c.o' -c ../webrtc/common_audio/signal_processing/randomization_functions.c",
+    "file": "../webrtc/common_audio/signal_processing/randomization_functions.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_randomization_functions.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_real_fft.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_real_fft.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_real_fft.c.o' -c ../webrtc/common_audio/signal_processing/real_fft.c",
+    "file": "../webrtc/common_audio/signal_processing/real_fft.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_real_fft.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_refl_coef_to_lpc.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_refl_coef_to_lpc.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_refl_coef_to_lpc.c.o' -c ../webrtc/common_audio/signal_processing/refl_coef_to_lpc.c",
+    "file": "../webrtc/common_audio/signal_processing/refl_coef_to_lpc.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_refl_coef_to_lpc.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample.c.o' -c ../webrtc/common_audio/signal_processing/resample.c",
+    "file": "../webrtc/common_audio/signal_processing/resample.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_48khz.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_48khz.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_48khz.c.o' -c ../webrtc/common_audio/signal_processing/resample_48khz.c",
+    "file": "../webrtc/common_audio/signal_processing/resample_48khz.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_48khz.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2.c.o' -c ../webrtc/common_audio/signal_processing/resample_by_2.c",
+    "file": "../webrtc/common_audio/signal_processing/resample_by_2.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2_internal.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2_internal.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2_internal.c.o' -c ../webrtc/common_audio/signal_processing/resample_by_2_internal.c",
+    "file": "../webrtc/common_audio/signal_processing/resample_by_2_internal.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_by_2_internal.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_fractional.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_fractional.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_fractional.c.o' -c ../webrtc/common_audio/signal_processing/resample_fractional.c",
+    "file": "../webrtc/common_audio/signal_processing/resample_fractional.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_resample_fractional.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_init.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_init.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_init.c.o' -c ../webrtc/common_audio/signal_processing/spl_init.c",
+    "file": "../webrtc/common_audio/signal_processing/spl_init.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_init.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt.c.o' -c ../webrtc/common_audio/signal_processing/spl_sqrt.c",
+    "file": "../webrtc/common_audio/signal_processing/spl_sqrt.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_splitting_filter.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_splitting_filter.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_splitting_filter.c.o' -c ../webrtc/common_audio/signal_processing/splitting_filter.c",
+    "file": "../webrtc/common_audio/signal_processing/splitting_filter.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_splitting_filter.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_sqrt_of_one_minus_x_squared.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_sqrt_of_one_minus_x_squared.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_sqrt_of_one_minus_x_squared.c.o' -c ../webrtc/common_audio/signal_processing/sqrt_of_one_minus_x_squared.c",
+    "file": "../webrtc/common_audio/signal_processing/sqrt_of_one_minus_x_squared.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_sqrt_of_one_minus_x_squared.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_vector_scaling_operations.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_vector_scaling_operations.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_vector_scaling_operations.c.o' -c ../webrtc/common_audio/signal_processing/vector_scaling_operations.c",
+    "file": "../webrtc/common_audio/signal_processing/vector_scaling_operations.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_vector_scaling_operations.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad.cc.o' -c ../webrtc/common_audio/vad/vad.cc",
+    "file": "../webrtc/common_audio/vad/vad.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/vad_vad.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_core.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_core.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_core.c.o' -c ../webrtc/common_audio/vad/vad_core.c",
+    "file": "../webrtc/common_audio/vad/vad_core.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_core.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_filterbank.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_filterbank.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_filterbank.c.o' -c ../webrtc/common_audio/vad/vad_filterbank.c",
+    "file": "../webrtc/common_audio/vad/vad_filterbank.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_filterbank.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_gmm.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_gmm.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_gmm.c.o' -c ../webrtc/common_audio/vad/vad_gmm.c",
+    "file": "../webrtc/common_audio/vad/vad_gmm.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_gmm.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_sp.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_sp.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_sp.c.o' -c ../webrtc/common_audio/vad/vad_sp.c",
+    "file": "../webrtc/common_audio/vad/vad_sp.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/vad_vad_sp.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/vad_webrtc_vad.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/vad_webrtc_vad.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/vad_webrtc_vad.c.o' -c ../webrtc/common_audio/vad/webrtc_vad.c",
+    "file": "../webrtc/common_audio/vad/webrtc_vad.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/vad_webrtc_vad.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/audio_converter.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/audio_converter.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/audio_converter.cc.o' -c ../webrtc/common_audio/audio_converter.cc",
+    "file": "../webrtc/common_audio/audio_converter.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/audio_converter.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/audio_ring_buffer.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/audio_ring_buffer.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/audio_ring_buffer.cc.o' -c ../webrtc/common_audio/audio_ring_buffer.cc",
+    "file": "../webrtc/common_audio/audio_ring_buffer.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/audio_ring_buffer.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/audio_util.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/audio_util.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/audio_util.cc.o' -c ../webrtc/common_audio/audio_util.cc",
+    "file": "../webrtc/common_audio/audio_util.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/audio_util.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/blocker.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/blocker.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/blocker.cc.o' -c ../webrtc/common_audio/blocker.cc",
+    "file": "../webrtc/common_audio/blocker.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/blocker.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/channel_buffer.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/channel_buffer.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/channel_buffer.cc.o' -c ../webrtc/common_audio/channel_buffer.cc",
+    "file": "../webrtc/common_audio/channel_buffer.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/channel_buffer.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/fft4g.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/fft4g.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/fft4g.c.o' -c ../webrtc/common_audio/fft4g.c",
+    "file": "../webrtc/common_audio/fft4g.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/fft4g.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/fir_filter.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/fir_filter.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/fir_filter.cc.o' -c ../webrtc/common_audio/fir_filter.cc",
+    "file": "../webrtc/common_audio/fir_filter.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/fir_filter.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/lapped_transform.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/lapped_transform.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/lapped_transform.cc.o' -c ../webrtc/common_audio/lapped_transform.cc",
+    "file": "../webrtc/common_audio/lapped_transform.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/lapped_transform.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/real_fourier.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/real_fourier.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/real_fourier.cc.o' -c ../webrtc/common_audio/real_fourier.cc",
+    "file": "../webrtc/common_audio/real_fourier.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/real_fourier.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/real_fourier_ooura.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/real_fourier_ooura.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/real_fourier_ooura.cc.o' -c ../webrtc/common_audio/real_fourier_ooura.cc",
+    "file": "../webrtc/common_audio/real_fourier_ooura.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/real_fourier_ooura.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/ring_buffer.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/ring_buffer.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/ring_buffer.c.o' -c ../webrtc/common_audio/ring_buffer.c",
+    "file": "../webrtc/common_audio/ring_buffer.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/ring_buffer.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/sparse_fir_filter.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/sparse_fir_filter.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/sparse_fir_filter.cc.o' -c ../webrtc/common_audio/sparse_fir_filter.cc",
+    "file": "../webrtc/common_audio/sparse_fir_filter.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/sparse_fir_filter.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/wav_file.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/wav_file.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/wav_file.cc.o' -c ../webrtc/common_audio/wav_file.cc",
+    "file": "../webrtc/common_audio/wav_file.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/wav_file.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/wav_header.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/wav_header.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/wav_header.cc.o' -c ../webrtc/common_audio/wav_header.cc",
+    "file": "../webrtc/common_audio/wav_header.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/wav_header.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/window_generator.cc.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/window_generator.cc.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/window_generator.cc.o' -c ../webrtc/common_audio/window_generator.cc",
+    "file": "../webrtc/common_audio/window_generator.cc",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/window_generator.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_bit_reverse.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_bit_reverse.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_bit_reverse.c.o' -c ../webrtc/common_audio/signal_processing/complex_bit_reverse.c",
+    "file": "../webrtc/common_audio/signal_processing/complex_bit_reverse.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_complex_bit_reverse.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar_fast_q12.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar_fast_q12.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar_fast_q12.c.o' -c ../webrtc/common_audio/signal_processing/filter_ar_fast_q12.c",
+    "file": "../webrtc/common_audio/signal_processing/filter_ar_fast_q12.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_filter_ar_fast_q12.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/common_audio/98938ab@@common_audio@sta -Iwebrtc/common_audio -I../webrtc/common_audio -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt_floor.c.o' -MF 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt_floor.c.o.d' -o 'webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt_floor.c.o' -c ../webrtc/common_audio/signal_processing/spl_sqrt_floor.c",
+    "file": "../webrtc/common_audio/signal_processing/spl_sqrt_floor.c",
+    "output": "webrtc/common_audio/98938ab@@common_audio@sta/signal_processing_spl_sqrt_floor.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_aligned_malloc.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_aligned_malloc.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_aligned_malloc.cc.o' -c ../webrtc/system_wrappers/source/aligned_malloc.cc",
+    "file": "../webrtc/system_wrappers/source/aligned_malloc.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_aligned_malloc.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_cpu_features.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_cpu_features.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_cpu_features.cc.o' -c ../webrtc/system_wrappers/source/cpu_features.cc",
+    "file": "../webrtc/system_wrappers/source/cpu_features.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_cpu_features.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event.cc.o' -c ../webrtc/system_wrappers/source/event.cc",
+    "file": "../webrtc/system_wrappers/source/event.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_file_impl.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_file_impl.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_file_impl.cc.o' -c ../webrtc/system_wrappers/source/file_impl.cc",
+    "file": "../webrtc/system_wrappers/source/file_impl.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_file_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section.cc.o' -c ../webrtc/system_wrappers/source/critical_section.cc",
+    "file": "../webrtc/system_wrappers/source/critical_section.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_logging.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_logging.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_logging.cc.o' -c ../webrtc/system_wrappers/source/logging.cc",
+    "file": "../webrtc/system_wrappers/source/logging.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_logging.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_metrics_default.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_metrics_default.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_metrics_default.cc.o' -c ../webrtc/system_wrappers/source/metrics_default.cc",
+    "file": "../webrtc/system_wrappers/source/metrics_default.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_metrics_default.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock.cc.o' -c ../webrtc/system_wrappers/source/rw_lock.cc",
+    "file": "../webrtc/system_wrappers/source/rw_lock.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_sleep.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_sleep.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_sleep.cc.o' -c ../webrtc/system_wrappers/source/sleep.cc",
+    "file": "../webrtc/system_wrappers/source/sleep.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_sleep.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread.cc.o' -c ../webrtc/system_wrappers/source/thread.cc",
+    "file": "../webrtc/system_wrappers/source/thread.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_impl.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_impl.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_impl.cc.o' -c ../webrtc/system_wrappers/source/trace_impl.cc",
+    "file": "../webrtc/system_wrappers/source/trace_impl.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section_posix.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section_posix.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section_posix.cc.o' -c ../webrtc/system_wrappers/source/critical_section_posix.cc",
+    "file": "../webrtc/system_wrappers/source/critical_section_posix.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_critical_section_posix.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event_timer_posix.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event_timer_posix.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event_timer_posix.cc.o' -c ../webrtc/system_wrappers/source/event_timer_posix.cc",
+    "file": "../webrtc/system_wrappers/source/event_timer_posix.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_event_timer_posix.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock_posix.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock_posix.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock_posix.cc.o' -c ../webrtc/system_wrappers/source/rw_lock_posix.cc",
+    "file": "../webrtc/system_wrappers/source/rw_lock_posix.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_rw_lock_posix.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread_posix.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread_posix.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread_posix.cc.o' -c ../webrtc/system_wrappers/source/thread_posix.cc",
+    "file": "../webrtc/system_wrappers/source/thread_posix.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_thread_posix.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/system_wrappers/6b7c953@@system_wrappers@sta -Iwebrtc/system_wrappers -I../webrtc/system_wrappers -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_posix.cc.o' -MF 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_posix.cc.o.d' -o 'webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_posix.cc.o' -c ../webrtc/system_wrappers/source/trace_posix.cc",
+    "file": "../webrtc/system_wrappers/source/trace_posix.cc",
+    "output": "webrtc/system_wrappers/6b7c953@@system_wrappers@sta/source_trace_posix.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/arith_routines.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/arith_routines.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_hist.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_hist.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_hist.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/arith_routines_hist.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/arith_routines_hist.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_hist.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_logist.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_logist.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_logist.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/arith_routines_logist.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/arith_routines_logist.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_arith_routines_logist.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_encode_lpc_swb.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_encode_lpc_swb.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_encode_lpc_swb.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/encode_lpc_swb.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/encode_lpc_swb.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_encode_lpc_swb.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_entropy_coding.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_entropy_coding.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_entropy_coding.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/entropy_coding.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/entropy_coding.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_entropy_coding.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filter_functions.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filter_functions.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filter_functions.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/filter_functions.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/filter_functions.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filter_functions.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbanks.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbanks.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbanks.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/filterbanks.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/filterbanks.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbanks.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbank_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbank_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbank_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/filterbank_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/filterbank_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_filterbank_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_intialize.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_intialize.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_intialize.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/intialize.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/intialize.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_intialize.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_analysis.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_analysis.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_analysis.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_analysis.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_analysis.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_analysis.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_gain_swb_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_gain_swb_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_gain_swb_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_gain_swb_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_gain_swb_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_gain_swb_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb12_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb12_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb12_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_shape_swb12_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_shape_swb12_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb12_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb16_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb16_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb16_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_shape_swb16_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_shape_swb16_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_shape_swb16_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/lpc_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_lpc_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_estimator.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_estimator.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_estimator.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_estimator.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_estimator.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_estimator.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_filter.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_filter.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_filter.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_filter.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_filter.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_filter.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_gain_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_gain_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_gain_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_gain_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_gain_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_gain_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_lag_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_lag_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_lag_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_lag_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/pitch_lag_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_pitch_lag_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta -Iwebrtc/modules/audio_coding -I../webrtc/modules/audio_coding -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_spectrum_ar_model_tables.c.o' -MF 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_spectrum_ar_model_tables.c.o.d' -o 'webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_spectrum_ar_model_tables.c.o' -c ../webrtc/modules/audio_coding/codecs/isac/main/source/spectrum_ar_model_tables.c",
+    "file": "../webrtc/modules/audio_coding/codecs/isac/main/source/spectrum_ar_model_tables.c",
+    "output": "webrtc/modules/audio_coding/2dd4ea4@@audio_coding@sta/codecs_isac_main_source_spectrum_ar_model_tables.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_core.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_core.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_core.c.o' -c ../webrtc/modules/audio_processing/aec/aec_core.c",
+    "file": "../webrtc/modules/audio_processing/aec/aec_core.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_core.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_rdft.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_rdft.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_rdft.c.o' -c ../webrtc/modules/audio_processing/aec/aec_rdft.c",
+    "file": "../webrtc/modules/audio_processing/aec/aec_rdft.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_rdft.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_resampler.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_resampler.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_resampler.c.o' -c ../webrtc/modules/audio_processing/aec/aec_resampler.c",
+    "file": "../webrtc/modules/audio_processing/aec/aec_resampler.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_aec_resampler.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_echo_cancellation.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_echo_cancellation.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_echo_cancellation.c.o' -c ../webrtc/modules/audio_processing/aec/echo_cancellation.c",
+    "file": "../webrtc/modules/audio_processing/aec/echo_cancellation.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aec_echo_cancellation.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_echo_control_mobile.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_echo_control_mobile.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_echo_control_mobile.c.o' -c ../webrtc/modules/audio_processing/aecm/echo_control_mobile.c",
+    "file": "../webrtc/modules/audio_processing/aecm/echo_control_mobile.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_echo_control_mobile.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core.c.o' -c ../webrtc/modules/audio_processing/aecm/aecm_core.c",
+    "file": "../webrtc/modules/audio_processing/aecm/aecm_core.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core_c.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core_c.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core_c.c.o' -c ../webrtc/modules/audio_processing/aecm/aecm_core_c.c",
+    "file": "../webrtc/modules/audio_processing/aecm/aecm_core_c.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/aecm_aecm_core_c.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_analog_agc.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_analog_agc.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_analog_agc.c.o' -c ../webrtc/modules/audio_processing/agc/legacy/analog_agc.c",
+    "file": "../webrtc/modules/audio_processing/agc/legacy/analog_agc.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_analog_agc.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_digital_agc.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_digital_agc.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_digital_agc.c.o' -c ../webrtc/modules/audio_processing/agc/legacy/digital_agc.c",
+    "file": "../webrtc/modules/audio_processing/agc/legacy/digital_agc.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_legacy_digital_agc.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc.cc.o' -c ../webrtc/modules/audio_processing/agc/agc.cc",
+    "file": "../webrtc/modules/audio_processing/agc/agc.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc_manager_direct.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc_manager_direct.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc_manager_direct.cc.o' -c ../webrtc/modules/audio_processing/agc/agc_manager_direct.cc",
+    "file": "../webrtc/modules/audio_processing/agc/agc_manager_direct.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_agc_manager_direct.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_histogram.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_histogram.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_histogram.cc.o' -c ../webrtc/modules/audio_processing/agc/histogram.cc",
+    "file": "../webrtc/modules/audio_processing/agc/histogram.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_histogram.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_utility.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_utility.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_utility.cc.o' -c ../webrtc/modules/audio_processing/agc/utility.cc",
+    "file": "../webrtc/modules/audio_processing/agc/utility.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/agc_utility.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_array_util.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_array_util.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_array_util.cc.o' -c ../webrtc/modules/audio_processing/beamformer/array_util.cc",
+    "file": "../webrtc/modules/audio_processing/beamformer/array_util.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_array_util.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_covariance_matrix_generator.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_covariance_matrix_generator.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_covariance_matrix_generator.cc.o' -c ../webrtc/modules/audio_processing/beamformer/covariance_matrix_generator.cc",
+    "file": "../webrtc/modules/audio_processing/beamformer/covariance_matrix_generator.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_covariance_matrix_generator.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_nonlinear_beamformer.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_nonlinear_beamformer.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_nonlinear_beamformer.cc.o' -c ../webrtc/modules/audio_processing/beamformer/nonlinear_beamformer.cc",
+    "file": "../webrtc/modules/audio_processing/beamformer/nonlinear_beamformer.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/beamformer_nonlinear_beamformer.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_enhancer.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_enhancer.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_enhancer.cc.o' -c ../webrtc/modules/audio_processing/intelligibility/intelligibility_enhancer.cc",
+    "file": "../webrtc/modules/audio_processing/intelligibility/intelligibility_enhancer.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_enhancer.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_utils.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_utils.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_utils.cc.o' -c ../webrtc/modules/audio_processing/intelligibility/intelligibility_utils.cc",
+    "file": "../webrtc/modules/audio_processing/intelligibility/intelligibility_utils.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/intelligibility_intelligibility_utils.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/logging_aec_logging_file_handling.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/logging_aec_logging_file_handling.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/logging_aec_logging_file_handling.cc.o' -c ../webrtc/modules/audio_processing/logging/aec_logging_file_handling.cc",
+    "file": "../webrtc/modules/audio_processing/logging/aec_logging_file_handling.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/logging_aec_logging_file_handling.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_click_annotate.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_click_annotate.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_click_annotate.cc.o' -c ../webrtc/modules/audio_processing/transient/click_annotate.cc",
+    "file": "../webrtc/modules/audio_processing/transient/click_annotate.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_click_annotate.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_file_utils.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_file_utils.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_file_utils.cc.o' -c ../webrtc/modules/audio_processing/transient/file_utils.cc",
+    "file": "../webrtc/modules/audio_processing/transient/file_utils.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_file_utils.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_moving_moments.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_moving_moments.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_moving_moments.cc.o' -c ../webrtc/modules/audio_processing/transient/moving_moments.cc",
+    "file": "../webrtc/modules/audio_processing/transient/moving_moments.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_moving_moments.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_detector.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_detector.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_detector.cc.o' -c ../webrtc/modules/audio_processing/transient/transient_detector.cc",
+    "file": "../webrtc/modules/audio_processing/transient/transient_detector.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_detector.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_suppressor.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_suppressor.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_suppressor.cc.o' -c ../webrtc/modules/audio_processing/transient/transient_suppressor.cc",
+    "file": "../webrtc/modules/audio_processing/transient/transient_suppressor.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_transient_suppressor.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_node.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_node.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_node.cc.o' -c ../webrtc/modules/audio_processing/transient/wpd_node.cc",
+    "file": "../webrtc/modules/audio_processing/transient/wpd_node.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_node.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_tree.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_tree.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_tree.cc.o' -c ../webrtc/modules/audio_processing/transient/wpd_tree.cc",
+    "file": "../webrtc/modules/audio_processing/transient/wpd_tree.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/transient_wpd_tree.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator.c.o' -c ../webrtc/modules/audio_processing/utility/delay_estimator.c",
+    "file": "../webrtc/modules/audio_processing/utility/delay_estimator.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator_wrapper.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator_wrapper.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator_wrapper.c.o' -c ../webrtc/modules/audio_processing/utility/delay_estimator_wrapper.c",
+    "file": "../webrtc/modules/audio_processing/utility/delay_estimator_wrapper.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/utility_delay_estimator_wrapper.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_gmm.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_gmm.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_gmm.cc.o' -c ../webrtc/modules/audio_processing/vad/gmm.cc",
+    "file": "../webrtc/modules/audio_processing/vad/gmm.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_gmm.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_based_vad.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_based_vad.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_based_vad.cc.o' -c ../webrtc/modules/audio_processing/vad/pitch_based_vad.cc",
+    "file": "../webrtc/modules/audio_processing/vad/pitch_based_vad.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_based_vad.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_internal.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_internal.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_internal.cc.o' -c ../webrtc/modules/audio_processing/vad/pitch_internal.cc",
+    "file": "../webrtc/modules/audio_processing/vad/pitch_internal.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pitch_internal.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pole_zero_filter.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pole_zero_filter.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pole_zero_filter.cc.o' -c ../webrtc/modules/audio_processing/vad/pole_zero_filter.cc",
+    "file": "../webrtc/modules/audio_processing/vad/pole_zero_filter.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_pole_zero_filter.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_standalone_vad.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_standalone_vad.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_standalone_vad.cc.o' -c ../webrtc/modules/audio_processing/vad/standalone_vad.cc",
+    "file": "../webrtc/modules/audio_processing/vad/standalone_vad.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_standalone_vad.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_audio_proc.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_audio_proc.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_audio_proc.cc.o' -c ../webrtc/modules/audio_processing/vad/vad_audio_proc.cc",
+    "file": "../webrtc/modules/audio_processing/vad/vad_audio_proc.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_audio_proc.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_circular_buffer.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_circular_buffer.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_circular_buffer.cc.o' -c ../webrtc/modules/audio_processing/vad/vad_circular_buffer.cc",
+    "file": "../webrtc/modules/audio_processing/vad/vad_circular_buffer.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_vad_circular_buffer.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_voice_activity_detector.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_voice_activity_detector.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_voice_activity_detector.cc.o' -c ../webrtc/modules/audio_processing/vad/voice_activity_detector.cc",
+    "file": "../webrtc/modules/audio_processing/vad/voice_activity_detector.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/vad_voice_activity_detector.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_buffer.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_buffer.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_buffer.cc.o' -c ../webrtc/modules/audio_processing/audio_buffer.cc",
+    "file": "../webrtc/modules/audio_processing/audio_buffer.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_buffer.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_processing_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_processing_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_processing_impl.cc.o' -c ../webrtc/modules/audio_processing/audio_processing_impl.cc",
+    "file": "../webrtc/modules/audio_processing/audio_processing_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/audio_processing_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_cancellation_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_cancellation_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_cancellation_impl.cc.o' -c ../webrtc/modules/audio_processing/echo_cancellation_impl.cc",
+    "file": "../webrtc/modules/audio_processing/echo_cancellation_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_cancellation_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_control_mobile_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_control_mobile_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_control_mobile_impl.cc.o' -c ../webrtc/modules/audio_processing/echo_control_mobile_impl.cc",
+    "file": "../webrtc/modules/audio_processing/echo_control_mobile_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/echo_control_mobile_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/gain_control_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/gain_control_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/gain_control_impl.cc.o' -c ../webrtc/modules/audio_processing/gain_control_impl.cc",
+    "file": "../webrtc/modules/audio_processing/gain_control_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/gain_control_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/high_pass_filter_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/high_pass_filter_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/high_pass_filter_impl.cc.o' -c ../webrtc/modules/audio_processing/high_pass_filter_impl.cc",
+    "file": "../webrtc/modules/audio_processing/high_pass_filter_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/high_pass_filter_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/level_estimator_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/level_estimator_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/level_estimator_impl.cc.o' -c ../webrtc/modules/audio_processing/level_estimator_impl.cc",
+    "file": "../webrtc/modules/audio_processing/level_estimator_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/level_estimator_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/noise_suppression_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/noise_suppression_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/noise_suppression_impl.cc.o' -c ../webrtc/modules/audio_processing/noise_suppression_impl.cc",
+    "file": "../webrtc/modules/audio_processing/noise_suppression_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/noise_suppression_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/rms_level.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/rms_level.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/rms_level.cc.o' -c ../webrtc/modules/audio_processing/rms_level.cc",
+    "file": "../webrtc/modules/audio_processing/rms_level.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/rms_level.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/splitting_filter.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/splitting_filter.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/splitting_filter.cc.o' -c ../webrtc/modules/audio_processing/splitting_filter.cc",
+    "file": "../webrtc/modules/audio_processing/splitting_filter.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/splitting_filter.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/processing_component.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/processing_component.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/processing_component.cc.o' -c ../webrtc/modules/audio_processing/processing_component.cc",
+    "file": "../webrtc/modules/audio_processing/processing_component.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/processing_component.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/three_band_filter_bank.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/three_band_filter_bank.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/three_band_filter_bank.cc.o' -c ../webrtc/modules/audio_processing/three_band_filter_bank.cc",
+    "file": "../webrtc/modules/audio_processing/three_band_filter_bank.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/three_band_filter_bank.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/typing_detection.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/typing_detection.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/typing_detection.cc.o' -c ../webrtc/modules/audio_processing/typing_detection.cc",
+    "file": "../webrtc/modules/audio_processing/typing_detection.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/typing_detection.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "c++ -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O2 -g -fPIC -pthread -std=c++11 -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/voice_detection_impl.cc.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/voice_detection_impl.cc.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/voice_detection_impl.cc.o' -c ../webrtc/modules/audio_processing/voice_detection_impl.cc",
+    "file": "../webrtc/modules/audio_processing/voice_detection_impl.cc",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/voice_detection_impl.cc.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_noise_suppression.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_noise_suppression.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_noise_suppression.c.o' -c ../webrtc/modules/audio_processing/ns/noise_suppression.c",
+    "file": "../webrtc/modules/audio_processing/ns/noise_suppression.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_noise_suppression.c.o"
+  },
+  {
+    "directory": "/home/pi/Projects/webrtc-audio-processing/build",
+    "command": "cc -Iwebrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha -Iwebrtc/modules/audio_processing -I../webrtc/modules/audio_processing -I. -I../ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -fPIC -pthread -DWEBRTC_AUDIO_PROCESSING_ONLY_BUILD -DNDEBUG -DWEBRTC_POSIX -DWEBRTC_LINUX -DWEBRTC_THREAD_RR -DWEBRTC_NS_FLOAT=1 -MD -MQ 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_ns_core.c.o' -MF 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_ns_core.c.o.d' -o 'webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_ns_core.c.o' -c ../webrtc/modules/audio_processing/ns/ns_core.c",
+    "file": "../webrtc/modules/audio_processing/ns/ns_core.c",
+    "output": "webrtc/modules/audio_processing/b2dffe2@@webrtc_audio_processing@sha/ns_ns_core.c.o"
+  }
+]

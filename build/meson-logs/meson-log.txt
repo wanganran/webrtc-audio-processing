@@ -1,0 +1,150 @@
+Build started at 2020-01-25T00:54:37.132140
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.999
+Source dir: /home/pi/Projects/webrtc-audio-processing
+Build dir: /home/pi/Projects/webrtc-audio-processing/build
+Build type: native build
+Project name: webrtc-audio-processing
+Project version: 0.3.1
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckc.c -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 8.3.0 "cc (Raspbian 8.3.0-6+rpi1) 8.3.0")
+C linker for the build machine: cc GNU ld.bfd 2.31.1
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckcpp.cc -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 8.3.0 "c++ (Raspbian 8.3.0-6+rpi1) 8.3.0")
+C++ linker for the build machine: c++ GNU ld.bfd 2.31.1
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckc.c -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 8.3.0 "cc (Raspbian 8.3.0-6+rpi1) 8.3.0")
+C linker for the host machine: cc GNU ld.bfd 2.31.1
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckcpp.cc -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Projects/webrtc-audio-processing/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 8.3.0 "c++ (Raspbian 8.3.0-6+rpi1) 8.3.0")
+C++ linker for the host machine: c++ GNU ld.bfd 2.31.1
+Build machine cpu family: arm
+Build machine cpu: armv7l
+Host machine cpu family: arm
+Host machine cpu: armv7l
+Target machine cpu family: arm
+Target machine cpu: armv7l
+Running compile:
+Working directory:  /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmpwpntf2e9
+Command line:  cc /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmpwpntf2e9/testfile.c -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmpwpntf2e9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rt found: YES
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmp_gjslknp
+Command line:  cc /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmp_gjslknp/testfile.c -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmp_gjslknp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #ifdef __ARM_ARCH_ISA_ARM
+#error no arm arch
+#endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmp_gjslknp/testfile.c:2:2: error: #error no arm arch
+ #error no arm arch
+  ^~~~~
+
+Running compile:
+Working directory:  /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmpp6w835d8
+Command line:  cc /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmpp6w835d8/testfile.c -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmpp6w835d8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #ifndef __ARM_ARCH_7A__
+#error no armv7 arch
+#endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmpp6w835d8/testfile.c:2:2: error: #error no armv7 arch
+ #error no armv7 arch
+  ^~~~~
+
+Running compile:
+Working directory:  /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmprbzpgk43
+Command line:  cc /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmprbzpgk43/testfile.c -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmprbzpgk43/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #ifndef __aarch64__
+#error no aarch64 arch
+#endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmprbzpgk43/testfile.c:2:2: error: #error no aarch64 arch
+ #error no aarch64 arch
+  ^~~~~
+
+Build targets in project: 6
+
+Found ninja-1.9.0.git at /usr/local/bin/ninja
+Running compile:
+Working directory:  /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmppxh5rk6a
+Command line:  c++ /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmppxh5rk6a/testfile.cpp -o /home/pi/Projects/webrtc-audio-processing/build/meson-private/tmppxh5rk6a/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/arm-linux-gnueabihf/8/
+programs: =/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/bin/
+libraries: =/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/8/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/8/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+
+Compiler stderr:
+ 
